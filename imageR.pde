@@ -190,8 +190,8 @@ void draw() {
     noLoop();
     textAlign(CENTER, BOTTOM);
     text("rotate 40° per step, 9 steps", 269, 512);
-    text("error : " + rmsdiff(out), 794, 512);
-    text("error : " + rmsdiff(out2), 269, 1037);
+    text("error : " + rmsdiff(out), 269, 1037);
+    text("error : " + rmsdiff(out2), 794, 512);
     text("error : " + rmsdiff(out3), 794, 1037);
   }
   saveFrame("data/####.png");
